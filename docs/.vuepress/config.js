@@ -20,16 +20,16 @@ module.exports = defineUserConfig({
         link: '/',
       },
       {
-        text: '指南',
-        link: '/guide/',
+        text: 'shared',
+        link: '/shared/',
       },
     ],
     sidebar: {
-      '/guide/': [
+      '/shared/': [
         {
-          text: '指南',
+          text: 'shared',
           children: [
-            '/guide/README.md'
+            '/shared/README.md'
           ],
         },
       ]
