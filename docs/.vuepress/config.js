@@ -1,4 +1,4 @@
-const { docsearchPlugin } = require('@vuepress/plugin-docsearch')
+const { searchPlugin } = require('@vuepress/plugin-search')
 const { defineUserConfig } = require('vuepress')
 const { localTheme } = require('./theme')
 const { copyCodePlugin } = require('vuepress-plugin-copy-code2')
@@ -57,7 +57,7 @@ module.exports = defineUserConfig({
     toggleSidebar: '切换侧边栏',
   }),
   plugins: [
-    docsearchPlugin({
+    searchPlugin({
       // 配置项
     }),
     copyCodePlugin({
