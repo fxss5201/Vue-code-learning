@@ -6,7 +6,7 @@ const { commentPlugin } = require('vuepress-plugin-comment2')
 const { mdEnhancePlugin } = require("vuepress-plugin-md-enhance")
 
 module.exports = defineUserConfig({
-  base: '/',
+  base: '/Vue-code-learning/',
   lang: 'zh_CN',
   title: 'Vue源码学习',
   description: 'Vue源码学习，及自我总结',
